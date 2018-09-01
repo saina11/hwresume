@@ -1,54 +1,81 @@
-
-body {
-
-
+*{
+    margin: 0;
+    padding: 0;
 }
-
 h2{
-    padding-left: 10px;
+    padding-left: 60px;
+    font-family: Raleway,sans-serif;
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 main {
-    width: 2551px;
-    padding: 58px;
+    width: 100%;
+
 }
+
 .left-section {
     box-sizing: border-box;
-    width: 20%;
-    height: 1500px;
+    width: 30%;
+    height: auto;
     background-color: #dbdcdd;
     float: left;
     padding: 67px 98px 98px 90px;
 }
 .profile_photo {
+    position: relative;
     width: 350px;
     height: 350px;
     border: 5px;
     border-color: black;
     border-radius: 200px;
+
 }
 .right-section {
-    width: 80%;
-    background-color: #636466;
+    width: 70%;
+    background-color: #514e49;
     float: right;
 }
 .right-section p {
     color: #ffffff;
 }
- .name-profile {
-     font-family: Yanone Kaffeesatz;
-     font-size: 45px;
-     text-align: center;
- }
+.name-profile {
+    font-family: Yanone Kaffeesatz;
+    font-size: 65px;
+    text-align: center;
+    color: #514e49;
+}
 .php-student {
     font-family: Lato;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .Hobbies ul li {
     float: left;
     padding-left: 15px;
 }
-.menu li {
-    /*float: left;*/
+.right-section {
+    height: auto;
+    padding-bottom: 4px;
+}
+
+.right-section p {
+    color: #b0afaf;
+    padding-left: 110px;
+}
+.right-section h2{
+    padding-left: 60px;
+    color: white;
+}
+.about {
+    margin-top: 100px;
+}
+.social li {
+    float: left;
+    padding-left: 10px;
+    list-style: none;
+}
+.about-me p{
+    width: 700px;
+    font-family: Open Sans;
 }
