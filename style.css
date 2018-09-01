@@ -1,0 +1,54 @@
+
+body {
+
+
+}
+
+h2{
+    padding-left: 10px;
+}
+
+main {
+    width: 2551px;
+    padding: 58px;
+}
+.left-section {
+    box-sizing: border-box;
+    width: 20%;
+    height: 1500px;
+    background-color: #dbdcdd;
+    float: left;
+    padding: 67px 98px 98px 90px;
+}
+.profile_photo {
+    width: 350px;
+    height: 350px;
+    border: 5px;
+    border-color: black;
+    border-radius: 200px;
+}
+.right-section {
+    width: 80%;
+    background-color: #636466;
+    float: right;
+}
+.right-section p {
+    color: #ffffff;
+}
+ .name-profile {
+     font-family: Yanone Kaffeesatz;
+     font-size: 45px;
+     text-align: center;
+ }
+.php-student {
+    font-family: Lato;
+    font-size: 12px;
+}
+
+.Hobbies ul li {
+    float: left;
+    padding-left: 15px;
+}
+.menu li {
+    /*float: left;*/
+}
